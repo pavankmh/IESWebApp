@@ -1,5 +1,7 @@
 server:
-  port: 9090  servlet:    context-path: /IESWebApp
+  port: 9090
+  servlet:
+    context-path: /IESWebApp
 spring:
   datasource:
     driver-class-name: oracle.jdbc.OracleDriver
@@ -17,13 +19,7 @@ spring:
     view:
       prefix: /views/
       suffix: .jsp
-  mail:
-    host: smtp.gmail.com
-    port: 587
-    username: pavankmh@gmail.com
-    password: 4183436856
-    properties:
-      mail:
+
         smtp:
           starttls:
             enable: true
